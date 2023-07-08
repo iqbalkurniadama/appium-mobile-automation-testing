@@ -1,5 +1,5 @@
 # appium-mobile-automation-testing
-test cases & video record testing:
+test cases & video record testing: <br />
 https://drive.google.com/drive/folders/1KHQHLfgLmIf4M-HLikQuxjMTtjGrYXkd?usp=sharing
 
 ## How to run
@@ -22,11 +22,14 @@ capabilities: [{
     }],
 ```
 
+install dependencies <br />
 ```bash
 npm install
 ```
 
+run appium <br />
 ```bash
 npx run ./wdio.conf.js
 ```
+
 ### Thanks
