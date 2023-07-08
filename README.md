@@ -6,17 +6,17 @@ https://drive.google.com/drive/folders/1KHQHLfgLmIf4M-HLikQuxjMTtjGrYXkd?usp=sha
 clone or download code appium-mobile-automation-testing
 
 customize your mobile devices in the file wdio.conf.js
-example:
-capabilities: [{
-        platformName                : "Android",
-        "appium:automationName"     : 'UiAutomator2',
-        "appium:deviceName"         : '<your name device>',
-        "appium:platformVersion"    : '<device version>',
-        "appium:app"                : path.join(process.cwd(),'./test/apk/Diet_meal.apk'),
-        "appium:appPackage"         : "com.fghilmany.dietmealapp",
-        "appium:appActivity"        : "com.fghilmany.dietmealapp.ui.main.MainActivity",
-        "appium:noReset"            : true,
-        "appium:forceAppLaunch"     : true,
+example: <br />
+capabilities: [{ <br />
+        platformName                : "Android", <br />
+        "appium:automationName"     : 'UiAutomator2', <br />
+        "appium:deviceName"         : '<your name device>', <br />
+        "appium:platformVersion"    : '<device version>', <br />
+        "appium:app"                : path.join(process.cwd(),'./test/apk/Diet_meal.apk'), <br />
+        "appium:appPackage"         : "com.fghilmany.dietmealapp", <br />
+        "appium:appActivity"        : "com.fghilmany.dietmealapp.ui.main.MainActivity", <br />
+        "appium:noReset"            : true, <br />
+        "appium:forceAppLaunch"     : true, <br />
     }],
 
 ```bash
