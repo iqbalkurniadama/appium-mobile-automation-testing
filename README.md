@@ -7,6 +7,8 @@ clone or download code appium-mobile-automation-testing
 
 customize your mobile devices in the file wdio.conf.js <br />
 example: <br />
+
+```bash
 capabilities: [{ <br />
         platformName                : "Android", <br />
         "appium:automationName"     : 'UiAutomator2', <br />
@@ -18,6 +20,7 @@ capabilities: [{ <br />
         "appium:noReset"            : true, <br />
         "appium:forceAppLaunch"     : true, <br />
     }],
+```
 
 ```bash
 npm install
