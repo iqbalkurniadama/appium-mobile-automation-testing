@@ -5,7 +5,7 @@ https://drive.google.com/drive/folders/1KHQHLfgLmIf4M-HLikQuxjMTtjGrYXkd?usp=sha
 ## How to run
 clone or download code appium-mobile-automation-testing
 
-customize your mobile devices in the file wdio.conf.js
+customize your mobile devices in the file wdio.conf.js <br />
 example: <br />
 capabilities: [{ <br />
         platformName                : "Android", <br />
